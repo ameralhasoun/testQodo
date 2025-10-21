@@ -1,0 +1,31 @@
+# pr_compliance_checklist.yaml
+pr_compliances:
+  - title: "Error Handling"
+    compliance_label: true
+    objective: "Ensure methods handle possible errors or invalid inputs."
+    success_criteria: "Methods validate inputs or use try-catch blocks when needed."
+    failure_criteria: "Methods assume inputs are always valid or can cause exceptions."
+
+  - title: "Naming Conventions"
+    compliance_label: true
+    objective: "All class and method names should follow C# PascalCase naming conventions."
+    success_criteria: "Class names and public methods use PascalCase (e.g., AddNumbers, Calculator)."
+    failure_criteria: "Names use snake_case, camelCase, or inconsistent capitalization."
+
+  - title: "Code Comments"
+    compliance_label: true
+    objective: "Important methods should include a short comment describing their purpose."
+    success_criteria: "Each public method has a short descriptive comment."
+    failure_criteria: "Public methods lack comments or have unclear comments."
+
+  - title: "Console Logging"
+    compliance_label: true
+    objective: "Programs that output to console should clearly describe what’s being printed."
+    success_criteria: "Console.WriteLine messages are meaningful and descriptive."
+    failure_criteria: "Console output is vague or unclear."
+
+  - title: "Clean and Readable Code"
+    compliance_label: true
+    objective: "Ensure the code is clean, readable, and easy to understand."
+    success_criteria: "Code follows indentation, spacing, and simple structure."
+    failure_criteria: "Code has inconsistent indentation or unclear logic flow."
